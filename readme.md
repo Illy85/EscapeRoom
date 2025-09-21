@@ -1,28 +1,45 @@
-Учебный проект грейдирования Профессии «React-разработчик» Escape Room
+# Escape Room React App
 
-## Структура проекта
+Una piattaforma interattiva per Escape Room, dove gli utenti registrati possono accedere a varie missioni in diverse città, con orari precisi selezionabili su una mappa interattiva. Le missioni sono disponibili in diversi livelli di difficoltà (facile, medio, difficile) e categorie (come horror, avventura, mistica, ecc.). Di solito partecipano più persone, e solo gli utenti loggati hanno accesso alle missioni prenotate. Sviluppato inizialmente nel 2023 come progetto di apprendimento, aggiornato nel 2025 con dipendenze moderne (React 19, Vite 7) per prestazioni e accessibilità migliorate.
 
-В файле VALIDATION пример работы с библиотекой `React Hook Form` необходимой для валидации в проекте
+## Caratteristiche
+- **Missioni interattive**: Enigmi e sfide in città reali e validazioni in tempo reale tramite React Hook Form.
+- **Mappa interattiva**: Selezione di missioni su mappa (con Leaflet), visualizzazione di orari precisi e prenotazioni.
+- **Livelli di difficoltà**: Opzioni facile, medio, difficile per adattarsi a tutti i giocatori.
+- **Categorie tematiche**: Horror, avventura, mistica e altro, per esperienze personalizzate.
+- **Partecipazione multipla**: Supporto per gruppi, con tracking del progresso condiviso.
+- **Accesso riservato**: Login per visualizzare e prenotare missioni esclusive; gestione stato con Redux.
+- **UI modulare**: Navigazione fluida con React Router e feedback visivo con React Toastify.
 
-### markup
+## Tech Stack
+| Frontend | Backend/Tools | Testing |
+|----------|---------------|---------|
+| React 19, TypeScript | Vite (build), Axios (API mocks) | Vitest, React Testing Library |
+| Redux Toolkit, React Router | React Hook Form, Leaflet (mappa) | ESLint, Prettier |
+| CSS Modules | Faker (dati mock) | |
 
-В директории находится вёрстка проекта: примеры страниц, ui-kit и карта сайта (`sitemap.html`). Начинать знакомство с проектом лучше с карты.
+## Installazione & Avvio
+1. Clona il repository:  
 
-### public
+git clone https://github.com/Illy85/EscapeRoom.git
 
-Директория для размещения статичных ресурсов (шрифты, стили, изображения и так далее).
+cd EscapeRoom
 
-### src
+2. Installa le dipendenze:  
 
-В директории размещается исходный код проекта: компоненты, файлы с тестами, модули и так далее. Структура директории `src` может быть произвольной.
+npm install
 
-## Алгоритм работы над проектом
+3. Avvia il server di sviluppo:  
 
-1. Установите зависимости, выполнив команду `npm install`.
+npm start
 
-2. Проверьте работу приложения, выполнив команду `npm start`.
+Apri http://localhost:5173 nel browser.
 
-3. Перейдите по адресу, указанному в терминале (скорее всего, это будет `http://localhost:5173/`). Если сборка прошла успешно, то на странице вашего приложения вы увидите `Hello, world!`.
+## Contributi
+Forka il repository, crea un branch (es. `feat/nuova-missione`), aggiungi le modifiche e apri una Pull Request. Feedback benvenuto!
 
-4. Запрограммируйте проект.
-# EscapeRoom
+## Licenza
+MIT License - vedi [LICENSE](LICENSE) per i dettagli.
+
+---
+Creato da Illy85 | [LinkedIn](https://www.linkedin.com/in/ilie-mardari-641993220/) | Aggiornato: Settembre 2025
