@@ -11,6 +11,9 @@ Una piattaforma interattiva per Escape Room, dove gli utenti registrati possono 
 - **Accesso riservato**: Login per visualizzare e prenotare missioni esclusive; gestione stato con Redux.
 - **UI modulare**: Navigazione fluida con React Router e feedback visivo con React Toastify.
 
+## Demo Live
+[Vedi la demo live su Vercel](https://escape-room-959ekij1q-ilies-projects-94f47317.vercel.app)
+
 ## Tech Stack
 | Frontend | Backend/Tools | Testing |
 |----------|---------------|---------|
