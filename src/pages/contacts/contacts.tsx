@@ -2,7 +2,7 @@ import { Helmet } from 'react-helmet-async';
 
 import Header from '../../components/header/header';
 import Footer from '../../components/footer/footer';
-import { ContactsCoords, ContactsPlace } from '../../const-contacts';
+import { ContactsPlace } from '../../const-contacts';
 import Map from '../../components/map/map';
 
 function Contacts():JSX.Element {
